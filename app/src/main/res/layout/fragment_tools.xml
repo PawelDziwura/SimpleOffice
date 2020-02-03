@@ -1,0 +1,137 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:isScrollContainer="true"
+    android:keepScreenOn="true"
+    android:scrollbarAlwaysDrawHorizontalTrack="true"
+    android:scrollbarAlwaysDrawVerticalTrack="true"
+    tools:context="com.example.pawel.simpleoffice.ToolsFragment">
+
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/Clock"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/Calendar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="70dp"
+        android:background="#FF4081"
+        android:onClick="click"
+        android:text="Calendar"
+        android:textColor="#fff" />
+
+    <Button
+        android:id="@+id/Clock"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#FF4081"
+        android:onClick="click"
+        android:text="Clock"
+        android:textColor="#fff"
+        android:layout_below="@+id/Calendar"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/Calculator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#FF4081"
+        android:onClick="click"
+        android:text="Calculator"
+        android:textColor="#fff"
+        android:layout_below="@+id/progressBar"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/Maps"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#FF4081"
+        android:onClick="click"
+        android:text="Maps"
+        android:textColor="#fff"
+        android:layout_below="@+id/NoteBook"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/NoteBook"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#FF4081"
+        android:onClick="click"
+        android:text="NoteBook"
+        android:textColor="#fff"
+        android:layout_below="@+id/Calculator"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/Paint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#FF4081"
+        android:onClick="click"
+        android:text="Paint"
+        android:textColor="#fff"
+        android:layout_below="@+id/Maps"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/Level"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#FF4081"
+        android:onClick="click"
+        android:text="Level"
+        android:textColor="#fff"
+        android:layout_below="@+id/Paint"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/Camera"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/Level"
+        android:layout_marginTop="10dp"
+        android:background="#FF4081"
+        android:onClick="click"
+        android:text="@string/Camera"
+        android:textColor="#fff" />
+
+    <Button
+        android:id="@+id/GAMES"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/Camera"
+        android:layout_marginTop="10dp"
+        android:background="#FF4081"
+        android:onClick="click"
+        android:text="@string/GAMES"
+        android:textColor="#fff" />
+
+</RelativeLayout>
